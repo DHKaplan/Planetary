@@ -9,7 +9,8 @@
     "resources": {
         "media": [
             {
-                "file": "images/Planetary Screen Menu BW.png",
+                "file": "images/Planetary Menu BW.png",
+                "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
                 "type": "png"
             },
