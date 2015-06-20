@@ -386,10 +386,10 @@ void handle_deinit(void) {
 
 void handle_init(void) {
 
-  GColor BGCOLOR   = COLOR_FALLBACK(GColorPastelYellow, GColorBlack);
+  GColor BGCOLOR   = COLOR_FALLBACK(GColorDukeBlue, GColorBlack);
   BGColorHold = BGCOLOR;
 
-  GColor TEXTCOLOR = COLOR_FALLBACK(GColorBlue, GColorWhite);
+  GColor TEXTCOLOR = COLOR_FALLBACK(GColorWhite, GColorWhite);
   TextColorHold = TEXTCOLOR;
 
   window = window_create();
@@ -457,8 +457,7 @@ void handle_init(void) {
 
   image = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_PLANETARY_LOGO);
  
-
-  image_layer = bitmap_layer_create(GRect(1, 29, 136, 49)); 
+  image_layer = bitmap_layer_create(GRect(1, 29, 144, 49)); 
   bitmap_layer_set_bitmap(image_layer, image);
   bitmap_layer_set_alignment(image_layer, GAlignCenter);
   layer_add_child(window_layer, bitmap_layer_get_layer(image_layer));

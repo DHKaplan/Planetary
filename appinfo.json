@@ -9,6 +9,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/Planetary Screen Menu BW.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
                 "file": "images/Planetary Society Logo BW.png",
                 "name": "IMAGE_PLANETARY_LOGO",
                 "type": "png"
