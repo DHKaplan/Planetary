@@ -1,0 +1,40 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "WA1OUI",
+    "longName": "Planetary",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/Planetary Society Logo BW.png",
+                "name": "IMAGE_PLANETARY_LOGO",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[:0-9]",
+                "file": "fonts/Roboto-Bold.ttf",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_45",
+                "type": "font"
+            },
+            {
+                "file": "fonts/HelveNeuLig.ttf",
+                "name": "FONT_HELV_NEW_LIGHT_20",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Planetary",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "A69FB496-B313-4655-AAC7-2DB1439AEB2F",
+    "versionLabel": "1.00",
+    "watchapp": {
+        "watchface": true
+    }
+}
