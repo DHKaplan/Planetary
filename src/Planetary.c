@@ -294,8 +294,9 @@ void handle_tick(struct tm *tick_time, TimeUnits units_changed) {
         text_layer_set_text(text_date_layer, date_text);
      }
   
-     //Always set time
-     text_layer_set_text(text_time_layer, time_text);
+      if((strcmp(seconds_text,"00") == 0) || (FirstTime == 0)) {
+         text_layer_set_text(text_time_layer, time_text); 
+       }
      FirstTime = 1; 
 }
 
