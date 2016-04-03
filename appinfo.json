@@ -4,10 +4,22 @@
         "configurable"
     ],
     "companyName": "WA1OUI",
+    "enableMultiJS": false,
     "longName": "Planetary",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/Planetary Menu BW.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Planetary Society Logo BW.png",
+                "name": "IMAGE_PLANETARY_LOGO",
+                "type": "bitmap"
+            },
             {
                 "file": "fonts/HelveNeuLig.ttf",
                 "name": "FONT_HELV_NEW_LIGHT_20",
@@ -24,17 +36,6 @@
                 "file": "fonts/Roboto-Bold.ttf",
                 "name": "FONT_ROBOTO_BOLD_SUBSET_40",
                 "type": "font"
-            },
-            {
-                "file": "images/Planetary Menu BW.png",
-                "menuIcon": true,
-                "name": "IMAGE_MENU_ICON",
-                "type": "png"
-            },
-            {
-                "file": "images/Planetary Society Logo BW.png",
-                "name": "IMAGE_PLANETARY_LOGO",
-                "type": "png"
             }
         ]
     },
@@ -46,7 +47,7 @@
         "chalk"
     ],
     "uuid": "A69FB496-B313-4655-AAC7-2DB1439AEB2F",
-    "versionLabel": "2.00",
+    "versionLabel": "2.1",
     "watchapp": {
         "watchface": true
     }
