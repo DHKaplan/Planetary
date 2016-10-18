@@ -1,0 +1,66 @@
+{
+    "author": "WA1OUI",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "planetary",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Planetary",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "DATE_FORMAT_KEY",
+            "BT_VIBRATE_KEY",
+            "LOW_BATTERY_KEY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Planetary Menu Color.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "FONT_ROBOTO_BOLD_SUBSET_40",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "FONT_ROBOTO_BOLD_SUBSET_45",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/HelveNeuLig.ttf",
+                    "name": "FONT_HELV_NEW_LIGHT_20",
+                    "type": "font"
+                },
+                {
+                    "file": "images/Planetary Society Logo BW.png",
+                    "name": "IMAGE_PLANETARY_LOGO",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "A69FB496-B313-4655-AAC7-2DB1439AEB2F",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "4.2.0"
+}
